@@ -14,6 +14,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String helloWord(){
         System.out.println(number);
+
         return "hello word！";
     }
 
